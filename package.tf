@@ -1,5 +1,5 @@
 locals {
-  python = (substr(pathexpand("~"), 0, 1) == "/") ? "python3" : "python.exe"
+  python = "/usr/bin/python3"
 }
 
 # Generates a filename for the zip archive based on the content of the files
